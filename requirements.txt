@@ -1,0 +1,8 @@
+torch
+torchvision
+torchmetrics
+tqdm
+opencv-python
+easyocr
+matplotlib
+scikit-learn
