@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to provide patrol officers with a more efficient way to enforce parking regulations by automatically detecting and issuing fines in real time. This approach minimises manual effort, improves accuracy, and enhances the overall efficiency of parking enforcement operations.
+Parking enforcement often requires significant manual effort, leading to inefficiencies and errors in identifying violations. To address these challenges, this project introduces an automated system that detects parking infringements and issues fines in real time.
 
 The system uses a **computer vision pipeline** built around a **Faster R-CNN** model, which performs **object detection** to locate number plates from vehicle images. The detected regions are then passed to **EasyOCR** for **optical character recognition (OCR)** to extract the plate text. Finally, the recognised text is filtered using **regular expressions (regex)** to ensure that only valid plate formats are accepted.  
 
