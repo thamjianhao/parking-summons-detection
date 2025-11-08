@@ -9,7 +9,7 @@ The system uses a **computer vision pipeline** built around a **Faster R-CNN** m
 Ideally, the plate numbers will be cross-referenced against a **summons database** to automatically flag vehicles with outstanding fines. However, currently the system uses a mock data array instead of a real database to simulate this lookup process.
 
 ### 🧠 Model Details
-- **Model:** Faster R-CNN  
+- **Model:** Faster R-CNN (MobileNetV3)
 - **Mean Average Precision (mAP):** 0.7958 @ 0.5 IoU threshold  
 - **Dataset:** 6,024 images of Malaysian number plates, including white-background plates (e.g., taxis, EVs).
 
